@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_a_subject"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/editSubjectName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"    android:autofillHints="name"
+        android:hint="@string/Enter_Subject_name"
+        android:inputType="textCapWords"
+        android:minHeight="48dp" />
+
+
+
+    <Button
+        android:id="@+id/btnSaveSubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_subject"
+        android:layout_marginTop="15dp" />
+</LinearLayout>
